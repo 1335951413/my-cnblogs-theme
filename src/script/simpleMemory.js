@@ -1,8 +1,3 @@
-/*!
- * UPDATES AND DOCS AT: https://github.com/BNDong
- * https://www.cnblogs.com/bndong/
- * @author: BNDong, dbnuo@foxmail.com
- **/
 if (initCheck()) {
     var sidebarHtml =
         '<div class="container">' +
@@ -74,19 +69,19 @@ if (initCheck()) {
         '<div id="rightMenu"></div>';
 
     window.cnblogsConfigDefault = {
-        GhUserName: '1335951413',
-        GhRepositories: 'my-cnblogs-theme',
+        GhUserName: 'BNDong',
+        GhRepositories: 'Cnblogs-Theme-SimpleMemory',
         GhVersions: 'v1.1.2',
-        blogUser: "suwanbin",
-        blogAvatar: "https://pic.cnblogs.com/avatar/1725797/20190702163645.png",
-        blogStartDate: "2019-6-26",
+        blogUser: "",
+        blogAvatar: "",
+        blogStartDate: "2019-01-01",
         menuCustomList: {},
         menuNavList: [],
-        webpageTitleOnblur: "人家等着你呢，死鬼快回来~",
+        webpageTitleOnblur: "(oﾟvﾟ)ノ Hi",
         webpageTitleOnblurTimeOut: 500,
-        webpageTitleFocus: "死鬼你好呀~",
+        webpageTitleFocus: "(*´∇｀*) 欢迎回来！",
         webpageTitleFocusTimeOut: 1000,
-        webpageIcon: "https://pic.cnblogs.com/avatar/1725797/20190702163645.png",
+        webpageIcon: "",
         fontIconExtend: "",
         progressBar: {
             id: 'top-progress-bar',
@@ -154,12 +149,12 @@ if (initCheck()) {
             animateSections: true
         },
         homeTopImg: [
-            "https://s2.ax1x.com/2019/07/09/Z6ePfg.jpg"
+            "https://raw.githubusercontent.com/BNDong/Cnblogs-Theme-SimpleMemory/master/img/home_top_bg.jpg"
         ],
         homeBannerText: "",
         homeBannerTextType: "jinrishici",
         essayTopImg: [
-            "https://s2.ax1x.com/2019/07/09/Z6ZsoT.jpg"
+            "https://raw.githubusercontent.com/BNDong/Cnblogs-Theme-SimpleMemory/master/img/nothome_top_bg.jpg"
         ],
         essayCodeHighlightingType: 'cnblogs',
         essayCodeHighlighting: '',
@@ -171,13 +166,54 @@ if (initCheck()) {
         bottomBlogroll: [],
         bottomText: {
             icon: "❤️",
-            left: "等到黑夜翻面之后",
-            right: "会是新的白昼"
+            left: "",
+            right: ""
         },
         consoleList: [],
         themeAuthor: false,
     };
-
+	
+	window.cnblogsConfig = {
+        GhVersions    : 'v1.1.4', // 版本
+        blogUser      : "suwanbin", // 用户名
+        blogAvatar    : "https://pic.cnblogs.com/avatar/1725797/20190702163645.png", // 用户头像
+        blogStartDate : "2019-6-26", // 入园时间，年-月-日。入园时间查看方法：鼠标停留园龄时间上，会显示入园时间
+        
+        GhUserName: '1335951413'
+        GhRepositories: 'my-cnblogs-theme'
+        
+        GhVersions: 'v1.1.4'
+        
+        webpageIcon: "https://pic.cnblogs.com/avatar/1725797/20190702163645.png"
+        
+        fontIconExtend: "//at.alicdn.com/t/font_543384_ezv3l7gd9r7.css"
+        // 首页图片（随机一张）
+        homeTopImg: [
+	        "http://pic1.win4000.com/wallpaper/9/54362d63810ea.jpg",
+	        "https://img15.3lian.com/2015/f3/16/d/46.jpg",
+	        "http://pic1.win4000.com/wallpaper/3/589ac4fd2341d.jpg",
+	        "http://www.zhisheji.com/data/head/58115cfa9d473.jpg",
+	        "http://www.33lc.com/article/UploadPic/2012-9/201292116541988072.jpg",
+	        "https://raw.githubusercontent.com/BNDong/Cnblogs-Theme-SimpleMemory/master/img/home_top_bg.jpg"
+    	]
+        // 文章页图片
+        essayTopImg: [
+        	"https://piccdn.gracg.com/uploadfile/photo/2019/6/pic_k2516h63butkqdzx5f2aczy5g1u8sw9b.jpg",
+	        "https://piccdn.gracg.com/uploadfile/photo/2019/6/pic_u2tta0t5rxragmr4iigijbegd1mih5rx.jpg",
+	        "https://piccdn.gracg.com/uploadfile/photo/2019/6/pic_0gs774657jatvocdikhhbtgm2oxijc6v.jpg",
+	        "https://piccdn.gracg.com/uploadfile/photo/2019/2/pic_fxc0hbc8ctztckcnyfyed1ae5um0a6yi.jpg",
+	        "https://piccdn.gracg.com/uploadfile/photo/2019/2/pic_fca13a7swgg6abndy7jg6txt8us7mfav.jpg",
+	        "https://piccdn.gracg.com/uploadfile/photo/2019/2/pic_dlhxdb6c08svpuvr3b1w0ceu3dusjhpt.jpg"
+    	]
+        
+        bottomText: {
+        	icon: "❤️",
+	        left : "等到黑夜翻面之后",
+	        right: "会是新的白昼"
+	    }
+        
+    }
+	
     window.cnblogsConfig = $.extend( true, window.cnblogsConfigDefault, window.cnblogsConfig );
 
     // set sidebar html
